@@ -1,0 +1,159 @@
+@charset "UTF-8";
+/*body*/
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #EBEBEB;
+}
+/*header*/
+header{
+  float: left;
+  font-family: 'Cookie', cursive;
+  font-size: 30px;
+  margin: 40px 0;
+}
+.header{
+  top: 0;
+  width: 90%;
+  height: 100px;
+  margin-left: 5%;
+  border-bottom: 1px solid #0E0E0E;
+}
+.fa-diamond{
+  color: #EBA4B7;
+  float: left;
+  margin: 5px;
+  padding: 40px 3px 30px 10px;
+  font-size: 25px;
+}
+/*navigation*/
+.navigation{
+  float: right;
+}
+.navigation ul li {
+  list-style: none;
+  display: inline-block;
+  text-align: left;
+  padding: 0 15px;
+  margin: 30px 0;
+}
+.navigation ul li a{
+  text-decoration: none;
+  font-size: 15px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  color: black;
+}
+/*title*/
+h1{
+  text-align: center;
+  font-size: 25px;
+  font-family: "Quicksand", sans-serif;
+  margin-top: 50px;
+}
+h2{
+  text-align: center;
+  font-size: 15px;
+  font-family: "Quicksand", sans-serif;
+}
+img{
+  width: 90%;
+  height: auto;
+  border-radius: 15px;
+  margin-left: 5%;
+  margin-top: 40px;
+}
+span{
+  color: #ED96A8;
+}
+/*content*/
+h3{
+  float: left;
+  margin: 10% 40%;
+  font-family: "Cookie", cursive;
+  font-size: 30px;
+  font-weight: lighter;
+  color: #ED96A8;
+  white-space: nowrap;
+}
+h4{
+  float: right;
+  margin: 10% 40%;
+  font-family: "Cookie", cursive;
+  font-size: 30px;
+  font-weight: lighter;
+  color: #ED96A8;
+  white-space: nowrap;
+}
+.about-me{
+  float: left;
+  margin: 0 5%;
+}
+.about-me p{
+  display: inline-block;
+  text-align: left;
+  font-family: "Quicksand", sans-serif;
+  font-size: 14px;
+  margin-top: -40px;
+}
+.my-work{
+  float: right;
+  margin: 0 5%;
+  margin-top: -200px;
+}
+.my-work p{
+  display: inline-block;
+  text-align: left;
+  font-family: "Quicksand", sans-serif;
+  font-size: 14px;
+  margin-top: -40px;
+}
+/*table*/
+table{
+  position: absolute;
+  text-align: left;
+  margin: 15%;
+  width: 70%;
+  height: auto;
+  background-color: #EBEBEB;
+  font-family: "Quicksand", sans-serif;
+  font-size: 15px;
+  border-collapse: collapse;
+}
+th{
+  background-color: white;
+  padding-left: 15px;
+}
+.table-bottom {
+  color: #ED96A8;
+  font-size: 10px;
+  padding-left: 15px;
+  background-color: white;
+}
+/*headline*/
+h5{
+    margin-top: 60%;
+    text-align: center;
+    font-family: "Cookie", cursive;
+    font-size: 30px;
+    font-weight: lighter;
+    color: #ED96A8;
+    white-space: nowrap;
+}
+footer{
+  background-color: #2D2D2D;
+  width: 100%;
+}
+h6{
+      text-align: left;
+      margin: 20px 30px;
+      padding-top: 50px;
+      font-family: "Cookie", cursive;
+      font-size: 30px;
+      font-weight: lighter;
+      color: #ED96A8;
+      white-space: nowrap;
+}
+form{
+  margin-left: 20px;
+}
